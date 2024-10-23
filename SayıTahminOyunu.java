@@ -12,7 +12,7 @@ public class SayıTahminOyunu
 		System.out.print("Sayıyı tahmin ediniz: ");
 		tahmin = scan.nextInt();
 		sayac++;
-		while(rastgele_sayi != tahmin)
+		while(tahmin != rastgele_sayi)
 		{
 			if(tahmin < rastgele_sayi)
 			{
