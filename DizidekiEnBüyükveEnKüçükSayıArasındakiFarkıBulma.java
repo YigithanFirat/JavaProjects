@@ -39,5 +39,6 @@ public class DizidekiEnBüyükveEnKüçükSayıArasındakiFarkıBulma
 			}
 		}
 		System.out.println("En Büyük ve En Küçük Değerin Farkı: " + (en_buyuk_kim - en_kucuk_kim));
+		scan.close();
 	}
 }
