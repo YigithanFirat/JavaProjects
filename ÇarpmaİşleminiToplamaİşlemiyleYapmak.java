@@ -15,5 +15,6 @@ public class ÇarpmaİşleminiToplamaİşlemiyleYapmak
 			toplam += sayi1;
 		}
 		System.out.println(sayi1 + "X" + sayi2 + "= " + toplam);
+		scan.close();
 	}
 }
