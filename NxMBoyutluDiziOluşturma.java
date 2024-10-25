@@ -27,5 +27,6 @@ public class NxMBoyutluDiziOluşturma
 			}
 			System.out.println("\n");
 		}
+		scan.close();
 	}
 }
