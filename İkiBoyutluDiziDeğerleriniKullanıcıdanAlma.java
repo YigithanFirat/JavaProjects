@@ -11,17 +11,17 @@ public class İkiBoyutluDiziDeğerleriniKullanıcıdanAlma
 		System.out.print("Dizinin ikinci matrisini giriniz: ");
 		matris2 = scan.nextInt();
 		int [][] dizi = new int[matris1][matris2];
-		for(int i = 0; i < dizi.length; i++)
+		for(int i = 0; i < matris1; i++)
 		{
-			for(int j = 0; j < dizi.length; j++)
+			for(int j = 0; j < matris2; j++)
 			{
 				System.out.print("Bir sayı giriniz: ");
 				dizi[i][j] = scan.nextInt();
 			}
 		}
-		for(int i = 0; i < dizi.length; i++)
+		for(int i = 0; i < matris1; i++)
 		{
-			for(int j = 0; j < dizi.length; j++)
+			for(int j = 0; j < matris2; j++)
 			{
 				System.out.println(dizi[i][j] + " ");
 			}
