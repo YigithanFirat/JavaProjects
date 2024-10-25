@@ -2,7 +2,7 @@ package Abusivesnake;
 import java.util.Scanner;
 public class AsalSayıyıBulmaMethod 
 {
-	public static void AsalKontrol(int a)
+	public static boolean AsalKontrol(int a)
 	{
 		int sayac = 0;
 		for(int i = 2; i < a; i++)
@@ -13,8 +13,8 @@ public class AsalSayıyıBulmaMethod
 			}
 			else continue;
 		}
-		if(sayac == 0) System.out.println(a + " sayısı asal sayıdır!");
-		else System.out.println(a + " saysı asal sayı değildir!");
+		if(sayac == 0) return true;
+		else return false;
 	}
 	public static void main(String[] args) 
 	{
