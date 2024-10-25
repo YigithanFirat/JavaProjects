@@ -6,7 +6,7 @@ public class HarfTopluluğuKontrolü
 	{
 		int sayac = 0;
 		Scanner scan = new Scanner(System.in);
-		System.out.print("Cumle veya kelime giriniz: ");
+		System.out.print("Cümle veya kelime giriniz: ");
 		String cumle = scan.nextLine();
 		for(int i = 0; i < cumle.length(); i++)
 		{
