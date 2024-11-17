@@ -1,6 +1,6 @@
 package Abusivesnake;
 import java.util.Scanner;
-public class HelloWorld 
+public class DikdörtgenAlanınıveÇevresiniHesaplama
 {
 	public static void main(String[] args)
 	{
