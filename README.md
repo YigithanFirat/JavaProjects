@@ -1,54 +1,71 @@
-# JavaProject
+# 🧩 JavaProjects
 
-Java projelerimi bu repo altında paylaşacağım.
+Bu depo, temel seviyeden başlayarak çeşitli **Java projelerini** barındırır.  
+Her proje, belirli bir konu veya yapı (if-else, switch-case, döngüler vb.) üzerine inşa edilmiştir ve öğrenme amaçlı sade örnekler içerir.
 
-## Java Projeleri
+---
 
-### Basit Hesap Makinesi If-Else Yapısı
+## 📘 Proje Listesi
 
-If-Else yapısı kullanılarak basit dört işlem yapan hesap makinesi kodları paylaşıldı.
+### 🔹 Basit Hesap Makinesi (If-Else Yapısı)
+`if-else` yapısı kullanılarak dört işlem (toplama, çıkarma, çarpma, bölme) yapan basit bir hesap makinesi uygulaması.
 
-### Basit Hesap Makinesi Switch-Case Yapısı
+### 🔹 Basit Hesap Makinesi (Switch-Case Yapısı)
+`switch-case` kullanılarak dört işlemi gerçekleştiren alternatif hesap makinesi versiyonu.
 
-Switch-Case yapısı kullanılarak basit dört işlem yapan hesap makinesi kodları paylaşıldı.
+### 🔹 Beden Kitle Endeksi (BMI) Hesaplama
+Kullanıcıdan alınan boy ve kilo değerleriyle **beden kitle endeksi (BMI)** hesaplanır ve sonuç, kullanıcının vücut durumu hakkında yorum yapılarak ekrana yazdırılır.
 
-### Beden Kitle Endeksi Hesaplama
+### 🔹 Çemberin Çevresi ve Alanı
+Kullanıcıdan alınan yarıçap değeriyle çemberin çevresi ve alanı hesaplanır.  
+Matematiksel işlemlerde `Math.PI` sabiti kullanılmıştır.
 
-Boy ve kilo değerlerini kullanıcıdan alıp beden kitle endeks hesabı yapılarak vücut yapısının nasıl olduğuyla alakalı yorum yapabilen kod paylaşıldı.
+### 🔹 Sayı Değerlerini Değiştirme
+İki sayının değerleri, **geçici bir değişken (temporary variable)** yardımıyla yer değiştirilir.
 
-### Çemberin Çevresini ve Alanını Hesaplama
+### 🔹 Sayıyı Yazıya Çevirme
+Girilen iki basamaklı sayı, onlar ve birler basamaklarına ayrılarak Türkçe karşılığı ("On", "Yirmi", "Otuz", ... "Bir", "İki", "Üç" vb.) olarak yazıya dönüştürülür.
 
-Yarıçağı kullanıcıdan alınan çemberin çevresi ve alanını hesaplayan kodlar paylaşıldı. (PI değeri Math_PI şeklinde alındığından matematiksel ondalıklı hesap yapıldı.)
+### 🔹 KDV’li Fiyat Hesaplama
+Kullanıcıdan alınan fiyat üzerinden **%18 KDV** hesaplanarak, **KDV dahil toplam fiyat** bulunur.
 
-### Girilen Sayının Değerlerini Değiştirme
+### 🔹 Öğrenci Notu Hesaplama
+Vize (%40) ve final (%60) notlarına göre **ortalama puan** ve **harf notu** hesaplanır.
 
-Kullanıcıdan alınan iki sayının temporary variable(geçici değişken) kullanarak bir değişkeninin sayısal değerini depolayarak/saklayarak değişken değiştirme işlemini tamamlayan kodlar paylaşıldı.
+### 🔹 Sayı Karşılaştırma
+Kullanıcıdan alınan iki sayı karşılaştırılır ve büyük olan ekrana yazdırılır.
 
-### Girilen Sayıyı Yazı Olarak Ekrana Yazdırma
+### 🔹 Tahmini Varış Süresi Hesaplama
+“**V = X / T**” formülüne dayalı olarak **hız**, **mesafe** ve **zaman** arasındaki ilişki üzerinden tahmini varış süresi hesaplanır.
 
-Girilen iki basamaklı sayıyı onlar ve birler olmak üzere basamaklara ayırdıktan sonra onlar basamağına göre 10'a bölünerek "On, Yirmi, Otuz" tabirleri eklendi.
-Birler basamağı içinse 10'a göre mod yani kalan hesabı yapılarak "Bir, iki üç" tabirleri eklendi ve birleştirilerek iki basamaklı sayının yazı şekline çevrilmesi sağlandı.
+### 🔹 Üç Sayıdan En Büyüğünü Bulma
+Girilen üç sayı arasında en büyük olan belirlenir ve ekrana yazdırılır.
 
-### KDV'li Fiyat Hesaplama
+### 🔹 1’den 100’e Kadar Sayıların Toplamı (For Döngüsü)
+`for` döngüsü kullanılarak 1’den 100’e kadar olan tüm sayıların toplamı hesaplanır ve sonuç ekrana yazdırılır.
 
-Girilen fiyatın %18 KDV'si alınarak hesaplama yapılarak KDV dahil fiyatın belirlenmesi sağlanmıştır
+---
 
-### Öğrenci Notu Hesaplama
+## 🛠️ Kullanılan Teknolojiler
+- Java SE  
+- IntelliJ IDEA / Eclipse  
+- Temel Java yapıları: `if`, `else`, `switch`, `for`, `while`, `Math` sınıfı
 
-Öğrencinin Vize ve Final notları alınarak vizenin 0.4, finalinse 0.6'yla çarpılarak harf notu belirlenmesi sağlanmıştır.
+---
 
-### Sayı Karşılaştırma
+## 🚀 Katkıda Bulunma
+Yeni proje eklemek istersen:
+1. Repoyu forkla 🍴  
+2. Kendi projenle yeni bir klasör oluştur  
+3. Açıklayıcı bir README ekle  
+4. Pull request gönder 🎯  
 
-İki sayı kullanıcıdan alınarak sayıların karşılaştırılması sağlanarak büyük olan sayının bulunmasını sağlanmıştır.
+---
 
-### Tahmini Varış Süresi Hesaplama
+## ✨ Lisans
+Bu repo eğitim amaçlıdır ve açık kaynak olarak paylaşılmaktadır.  
+İstediğin gibi kullanabilir, değiştirebilir veya geliştirebilirsin.
 
-"V = X / T" formülüne bağlı kalınarak zaman hesabının yapılması sağlamıştır.
+---
 
-### Üç Sayıdan En Büyüğünü Bulma
-
-Üç sayının karşılaştırılması ve karşılaştırılan sayının diğer geriye kalan iki sayıdan büyük olması kontrolü sağlanarak kodları yazıldı.
-
-### Yüze Kadar Olan Sayıların Toplamı For Döngüsüyle Hesaplama
-
-Yüze kadar olan tüm sayıların (100 dahil) for döngüsü sayesinde üst üste toplayarka hesaplanması sağlanmıştır ve kodları yazılmıştır.
+📍 **Hazırlayan:** [Yiğithan Fırat](https://github.com/YigithanFirat)
